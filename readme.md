@@ -46,7 +46,7 @@ A API solicitada ira retornar os dados extraidos em formato Json, conforme o exe
 
 ## Observações
 Gostaria de ter implementado a inserção no Cloud Storage, para exibir no BigQuery, porem houve alguns problemas :
-- Problema de autenticação, que foi resolvido com o Bearer Token, porém não em tempo de inserir logica de tablea;
+- Problema de autenticação, que foi resolvido com o Bearer Token, porém não em tempo de inserir logica de tabela;
 - Problema de Time-out :
-	- Feita extração de multiplas notícias, com um request para cada href da noticia;
+	- Feita extração de multiplas notícias, com um request para cada "href" da noticia;
 	- Isso gera uma "demora" no retorno da API, pode ser aprimorado, porem não houve tempo habil;
