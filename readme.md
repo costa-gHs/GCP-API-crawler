@@ -3,6 +3,7 @@
 Esta API foi desenvolvida usando Google Cloud Functions e a biblioteca BeautifulSoup em Python. Ela extrai dados de artigos do site da CNN Brasil, incluindo o título, subtítulo e autor do artigo.
 
 ## URL da API
+A Cloud Function recebe o método POST na url :
 https://southamerica-east1-hip-orbit-422421-j5.cloudfunctions.net/cnn-extractor-articles
 
 ## Autenticação
@@ -13,7 +14,7 @@ token : eyJhbGciOiJSUzI1NiIsImtpZCI6IjMyM2IyMTRhZTY5NzVhMGYwMzRlYTc3MzU0ZGMwYzI1
 ```
 
 ## Tempo de Timeout
-O tempo limite (timeout) mínimo para requisições à API é de 60.000 ms (60 segundos).
+O tempo limite (timeout) mínimo para requisições à API é de 120.000 ms (120 segundos).
 
 ## Parâmetros
 A API requer um parâmetro JSON no corpo da requisição (body), conforme o exemplo abaixo:
